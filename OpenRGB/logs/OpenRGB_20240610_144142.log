@@ -1,0 +1,44 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240610_144142
+====================================================================================================
+
+1002  |Info:    Saving detector settings
+1002  |Info:    ------------------------------------------------------
+1003  |Info:    |               Start device detection               |
+1003  |Info:    ------------------------------------------------------
+1003  |Info:    Initializing HID interfaces: Success
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |             Detecting I2C interfaces               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2414 Subsystem: 19DA:6630
+1008  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2414 Subsystem: 19DA:6630
+1008  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2414 Subsystem: 19DA:6630
+1008  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:D473
+1008  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2414 Subsystem: 19DA:6630
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |               Detecting I2C devices                |
+1008  |Info:    ------------------------------------------------------
+1284  |Info:    ------------------------------------------------------
+1284  |Info:    |               Detecting I2C PCI devices            |
+1284  |Info:    ------------------------------------------------------
+1285  |Info:    ------------------------------------------------------
+1285  |Info:    |               Detecting HID devices                |
+1285  |Info:    ------------------------------------------------------
+1286  |Info:    [Keychron Gaming Keyboard 1] Registering RGB controller
+1325  |Info:    [Razer Deathadder V2] Registering RGB controller
+1403  |Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+1403  |Info:    ------------------------------------------------------
+1403  |Info:    |            Detecting libusb HID devices            |
+1403  |Info:    ------------------------------------------------------
+1552  |Info:    ------------------------------------------------------
+1552  |Info:    |              Detecting other devices               |
+1552  |Info:    ------------------------------------------------------
+1559  |Info:    ------------------------------------------------------
+1559  |Info:    |                Detection completed                 |
+1559  |Info:    ------------------------------------------------------
+1559  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+356998|Info:    Found file: profile_1.orp attempting to validate header
+356998|Info:    Valid v4 profile found for profile_1
+363376|Info:    Found file: profile_1.orp attempting to validate header
+363376|Info:    Valid v4 profile found for profile_1

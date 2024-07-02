@@ -1,0 +1,29 @@
+[manager]
+show_hidden = true
+[opener]
+edit = [
+	{ run = 'vim "$@"', block = true },
+]
+
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
+#rules = [
+#	{ mime = "text/*", use = "edit" },
+#	{ mime = "video/*", use = "play" },
+#
+#	# { mime = "application/json", use = "edit" },
+#	{ name = "*.json", use = "edit" },
+#	{ name = "*.toml", use = "edit" },
+#	{ name = "*.ini", use = "edit" },
+#	{ name = "*.conf", use = "edit" },
+#	{ name = "*.txt", use = "edit" },
+#
+#
+#
+#	# Multiple openers for a single rule
+#	{ name = "*.html", use = "edit"  },
+#]
