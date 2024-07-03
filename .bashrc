@@ -24,12 +24,12 @@ else
    		#hyfetch
   		
 		 # echo hi fagget
-	
+	cd ~/'code projects'
 	./codestartup
 	cd ~
 
 	else
-	   hyfetch
+	  # hyfetch
 	   cd ~/'code projects'
 	   ./start_up
 	   cd ~
