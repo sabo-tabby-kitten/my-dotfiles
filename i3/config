@@ -55,14 +55,15 @@ gaps outer 5
 
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
-
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+d exec "rofi -modi drun,run -show drun"
+#bindsym $mod+d exec "rofi -modi drun,run -show drun"
+bindsym $mod+d exec --no-startup-id rofi -no-lazy-grab -show drun
+
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -103,9 +104,10 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -213,6 +215,7 @@ exec spotify
 
 exec_always nitrogen --restore 
 exec_always /etc/polybar/launch.sh 
+exec_always picom -b
 
 # for_window [class="^.*"] border pixel 2
 # class                 border  backgr. text    indicator child_border
@@ -230,5 +233,7 @@ hide_edge_borders both
 default_border pixel 0
 default_floating_border none
 
+bindsym $mod+w exec firefox
+bindsym $mod+Shift+s exec hotshot
 
 focus_follows_mouse no
