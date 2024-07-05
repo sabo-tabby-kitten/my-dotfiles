@@ -8,6 +8,7 @@ REQUIERD DEPENDANCYS
 	kitty
 	polybar
 	nitrogin
+	picom
 
 used primarly with arch linux not tested on anything else
 
