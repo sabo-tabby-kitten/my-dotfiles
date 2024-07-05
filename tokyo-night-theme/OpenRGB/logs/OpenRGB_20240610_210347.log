@@ -1,0 +1,52 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240610_210347
+====================================================================================================
+
+0     |Info:    Found file: profile_1.orp attempting to validate header
+0     |Info:    Valid v4 profile found for profile_1
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    |               Start device detection               |
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    Initializing HID interfaces: Success
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    |             Detecting I2C interfaces               |
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2414 Subsystem: 19DA:6630
+1018  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1022:D473
+1018  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:2414 Subsystem: 19DA:6630
+1018  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:2414 Subsystem: 19DA:6630
+1018  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2414 Subsystem: 19DA:6630
+1018  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1022:D473
+1018  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1022:D473
+1018  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:2414 Subsystem: 19DA:6630
+1018  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2414 Subsystem: 19DA:6630
+1018  |Info:    ------------------------------------------------------
+1018  |Info:    |               Detecting I2C devices                |
+1018  |Info:    ------------------------------------------------------
+1421  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1432  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+2055  |Info:    ------------------------------------------------------
+2055  |Info:    |               Detecting I2C PCI devices            |
+2055  |Info:    ------------------------------------------------------
+2056  |Info:    ------------------------------------------------------
+2056  |Info:    |               Detecting HID devices                |
+2056  |Info:    ------------------------------------------------------
+2057  |Info:    [Keychron Gaming Keyboard 1] Registering RGB controller
+2096  |Info:    [Razer Deathadder V2] Registering RGB controller
+2172  |Info:    [MSI B550-A PRO (MS-7C56)] Registering RGB controller
+2172  |Info:    ------------------------------------------------------
+2172  |Info:    |            Detecting libusb HID devices            |
+2172  |Info:    ------------------------------------------------------
+2312  |Info:    ------------------------------------------------------
+2312  |Info:    |              Detecting other devices               |
+2312  |Info:    ------------------------------------------------------
+2328  |Info:    ------------------------------------------------------
+2328  |Info:    |                Detection completed                 |
+2328  |Info:    ------------------------------------------------------
+78804 |Info:    Found file: profile_1.orp attempting to validate header
+78804 |Info:    Valid v4 profile found for profile_1
+82904 |Info:    Found file: profile_1.orp attempting to validate header
+82904 |Info:    Valid v4 profile found for profile_1
+94385 |Info:    Found file: profile_1.orp attempting to validate header
+94385 |Info:    Valid v4 profile found for profile_1
