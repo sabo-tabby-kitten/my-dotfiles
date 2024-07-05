@@ -9,6 +9,9 @@ REQUIERD DEPENDANCYS
 	polybar
 	nitrogin
 	picom
+	rofi
+	vim
+	mpv
 
 used primarly with arch linux not tested on anything else
 
