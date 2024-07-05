@@ -213,6 +213,7 @@ exec steam
 exec pavucontrol
 exec spotify
 
+exec_always --no-startup-id ~/dotfiles/i3/alternating_layouts.py
 exec_always nitrogen --restore 
 exec_always /etc/polybar/launch.sh 
 exec_always picom -b
