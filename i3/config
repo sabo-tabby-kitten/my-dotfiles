@@ -238,3 +238,11 @@ bindsym $mod+w exec firefox
 bindsym $mod+Shift+s exec hotshot
 
 focus_follows_mouse no
+
+# set desktop background with custom effect
+exec --no-startup-id betterlockscreen -w dim
+
+bindsym $mod+shift+p exec systemctl suspend
+
+
+
