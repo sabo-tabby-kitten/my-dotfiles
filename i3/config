@@ -13,7 +13,7 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:DejaVu Sans Mono 10
+font pango:JetbrainsMono Nerd Font 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -21,8 +21,8 @@ font pango:DejaVu Sans Mono 10
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
-exec --no-startup-id dex --autostart --environment i3
-
+# exec --no-startup-id dex --autostart --environment i3
+#
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -94,11 +94,11 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
-bindsym $mod+h split h
+# # split in horizontal orientation
+# bindsym $mod+h split h
 
-# split in vertical orientation
-bindsym $mod+v split v
+# # split in vertical orientation
+# bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -116,7 +116,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -133,7 +133,13 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
-
+#
+# ws-icon-0 = 1;󰈹
+# ws-icon-1 = 2;
+# ws-icon-2 = 3;
+# ws-icon-3 = 4;
+# ws-icon-9 = 10;
+# ws-icon-default =  
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -159,7 +165,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 
-assign [class="spotify"] $ws5
+assign [class="Spotify Premium"] $ws10
 assign [class="discord"] $ws3
 assign [class="steam"] $ws4
 assign [class="pavucontrol"] $ws10
