@@ -2,7 +2,7 @@
 show_hidden = true
 [opener]
 edit = [
-	{ run = 'vim "$@"', block = true },
+	{ run = 'nvim "$@"', block = true },
 ]
 
 play = [
