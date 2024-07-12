@@ -249,6 +249,8 @@ focus_follows_mouse no
 exec --no-startup-id betterlockscreen -w dim
 
 bindsym $mod+shift+p exec systemctl suspend
+bindsym $mod+p exec betterlockscreen -l dim
+
 
 
 
