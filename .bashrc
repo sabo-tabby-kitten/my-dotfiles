@@ -25,7 +25,7 @@ else
   		
 		 # echo hi fagget
 	cd ~/'code projects'
-	./codestartup
+	./codestartup -uwu
 	cd ~
 
 	else

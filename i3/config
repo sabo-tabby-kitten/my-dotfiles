@@ -166,6 +166,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 
 assign [class="Spotify Premium"] $ws10
+assign [class="Spotify"] $ws10
 assign [class="discord"] $ws3
 assign [class="steam"] $ws4
 assign [class="pavucontrol"] $ws10
@@ -242,6 +243,7 @@ default_floating_border none
 
 bindsym $mod+w exec firefox
 bindsym $mod+Shift+s exec hotshot
+# bindsym $mod+Shift+n exec Neovim
 
 focus_follows_mouse no
 
