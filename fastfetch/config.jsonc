@@ -4,7 +4,7 @@
     	"source": "~/Downloads/wallpaper/drawing2.png",
     	"type": "kitty-direct",
     	"padding": {
-    		"top": 5,
+    		"top": 6,
                 "left": 7
     	}
     },
@@ -27,7 +27,7 @@
         "break",
         {
             "type": "os",
-            "key": " ",
+            "key": "󰣇 ",
             "keyColor": "34" // = color4
         },
         {
@@ -42,11 +42,11 @@
 	    "key": " ",
             "keyColor": "34" 
         },
-          // {
-          //   "type": "shell",
-          //   "key": " ",
-          //    "keyColor": "34", 
-          // }
+           {
+             "type": "shell",
+             "key": " ",
+              "keyColor": "34" 
+           },
         {
             "type": "terminal",
             "key": " ",
@@ -83,8 +83,8 @@
           "key": " ",
           "keyColor": "34" 
         },
-         "break",
-        "break",
+//         "break",
+  //      "break",
         {
             "type": "cpu",
             "key": " ",
@@ -95,12 +95,12 @@
             "key": " ",
             "keyColor": "blue"
         },
-      //  {
-        //    "type": "memory",
-          //  "key": " ",
-         //   "keyColor": "blue"
-      //  },
-        "break",
+        {
+           "type": "memory",
+           "key": " ",
+           "keyColor": "blue"
+        },
+       "break",
         {
             "type": "custom",
             "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m "
