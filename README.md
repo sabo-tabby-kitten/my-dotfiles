@@ -1,6 +1,6 @@
 # -----IMPORTENT-------
 
-This is for my personal use, and not desighned for others to use. While people are welcome to use anyting here use at your own descresion.
+This is for my personal use, and not desighned for others to use. While people are welcome to use anyting here use at your own descresion. Also, i don't care if your credit me fuck copyright laws.
 
 If you have any questions message me on reddit u/Choumuske07
 
