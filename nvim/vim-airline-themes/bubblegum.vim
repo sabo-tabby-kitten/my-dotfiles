@@ -33,7 +33,7 @@ let g:airline#themes#bubblegum#palette.normal_modified = {
       \ }
 
 " Insert mode
-let s:I1 = [s:gui_med_gray_hi, s:gui_blue, s:cterm_med_gray_hi, s:cterm_blue]
+let s:I1 = [s:gui_dark_gray, s:gui_blue, s:cterm_med_gray_hi, s:cterm_blue]
 let s:I3 = [s:gui_blue, s:gui_med_gray_hi, s:cterm_blue, s:cterm_med_gray_hi]
 let g:airline#themes#bubblegum#palette.insert = airline#themes#generate_color_map(s:I1, s:N2, s:I3)
 let g:airline#themes#bubblegum#palette.insert_modified = copy(g:airline#themes#bubblegum#palette.normal_modified)
