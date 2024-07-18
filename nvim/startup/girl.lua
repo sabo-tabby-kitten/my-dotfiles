@@ -54,7 +54,7 @@ local settings = {
         title = "Basic Commands",
         margin = 4,
         content = {
-            { " Find File", "Telescope find_files", "<leader>ff" },
+            { " Find File", "Telescope find_files find_command=rg,--ignore,--hidden,--files ", "<leader>ff" },
             -- { "󰍉 Find Word", "Telescope live_grep", "<leader>lg" },
             { " Recent Files", "Telescope oldfiles", "<leader>of" },
             { " File Browser", "Telescope file_browser", "<leader>fb" },
