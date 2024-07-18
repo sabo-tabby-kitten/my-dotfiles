@@ -13,14 +13,14 @@ if you are using my NeoVIM config i recomned you alredy know how to set one up o
 -autocomplete: just read its documentation i wont help you its anoying to setup/ it depens on what language you use
 
 
-#Firefox
+# Firefox
 
 -make a chrome if not done google how to do it. Then move the contents of the chrome folder to the new one.
 -then install tab center reborn and copy and past the contents 'tabCenterReborn.txt' to the .css box in extention setings.
 -color theme is a theme for the mozzilla store called 'pitch-black pink'
 -you can configure the incogneto image by moving an img to the img folder and naming it 'private.png'(there are other ways this is just easy) and change the name of the previous one.
 
-#start_up.c
+# start_up.c
 
 is what i use to run startx as i dont have a login manager(so probebly dont use or atlest change the ascci art)
 
@@ -34,7 +34,7 @@ everyting else should be straght foward read the documentation if you need any h
 
 
 
-#list of software i use
+# list of software i use
 
 -fastfetch
 -firefox
