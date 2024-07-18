@@ -46,6 +46,7 @@ everyting else should be straght foward read the documentation if you need any h
 - rofi(aplication starter, if you use sompting else cange the i3 config file to reflect that)
 - betterlockscreen(images are stord in the catch run the first time you use it 'betterlockscreen -u "/path/to/ img.jpg"')
 - spotify_player(requiers spotify premem unfortnetly when it requests username and password it your spotify one wich may be a long string of letters and numbers)
+- nerdfonts (jetbrains mono) i think
 
 
 
