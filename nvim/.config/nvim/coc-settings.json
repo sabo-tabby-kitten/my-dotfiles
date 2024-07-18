@@ -1,0 +1,12 @@
+"languageserver": {
+  "sql": {
+    "module": "/path/to/node_modules/sql-language-server/dist/bin/cli.js",
+    "args": ["up", "--method", "node-ipc"],
+    "filetypes": ["sql", "mysql"]
+  },
+  "ocaml": {
+      "command": "ocaml-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["ocaml", "reason"]
+    }
+}

@@ -38,3 +38,4 @@ fi
 
 ##hyfetch
 ##fastfetch
+. "$HOME/.cargo/env"
