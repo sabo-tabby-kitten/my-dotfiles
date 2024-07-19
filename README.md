@@ -1,4 +1,15 @@
-# -----IMPORTENT-------
+## Preview
+<details><summary> <b>Images (Click to expand!)</b></summary>
+
+<img src="https://github.com/sabo-tabby-kitten/my-dotfiles/blob/b69cc791711bb95dafe77a57228271ce026006b6/preview/snapshasdasssdfot.png">
+<img src="https://github.com/sabo-tabby-kitten/my-dotfiles/blob/b69cc791711bb95dafe77a57228271ce026006b6/preview/snapshasdassssdfot.png">
+
+<img src="https://github.com/sabo-tabby-kitten/my-dotfiles/blob/b69cc791711bb95dafe77a57228271ce026006b6/preview/snapshasdfot-1.png">
+<img src="https://github.com/sabo-tabby-kitten/my-dotfiles/blob/b69cc791711bb95dafe77a57228271ce026006b6/preview/snapshasdasdfot.png">
+
+</details>
+
+## -----IMPORTENT-------
 
 This is for my personal use, and not desighned for others to use. While people are welcome to use anyting here use at your own descresion. Also, i don't care if your credit me fuck copyright laws.
 
@@ -6,19 +17,19 @@ If you have any questions message me on reddit u/Choumuske07
 
 # NeoVIM
 
-if you are using my NeoVIM config i recomned you alredy know how to set one up on your ow$n. I use Vim-Plug witch needs to be installed beforhand and i recomend you read the documentation for it. once everyting is installed run ':PlugInstall' if it dosent work restart nvim and try agein.
+if you are using my NeoVIM config i recomned you alredy know how to set one up on your ow$n. I use Vim-Plug witch needs to be installed beforhand and i recomend you read the documentation for it. once everyting is installed run `:PlugInstall` if it dosent work restart nvim and try agein.
 
-- bar:Once everything is installed move 'bubblegum.vim' from 'my-dotfiles/nvim/vim-airline-themes' to '~/.local/share/nvim/plugged/vim-airline-themes/autoload/airline/themes/' DELETE THE 'bubblegum.vim' file in that drectory and replace it with the new one.
-- startscreen: move 'girl.lua' from the startup drectory to '~/.local/share/nvim/plugged/startup.nvim/lua/startup/themes/'
+- bar: Once everything is installed move `bubblegum.vim` from `my-dotfiles/nvim/vim-airline-themes` to `~/.local/share/nvim/plugged/vim-airline-themes/autoload/airline/themes/` DELETE THE `bubblegum.vim` file in that drectory and replace it with the new one.
+- start screen: move `girl.lua` from the startup drectory to `~/.local/share/nvim/plugged/startup.nvim/lua/startup/themes/`
 - autocomplete: just read its documentation i wont help you its anoying to setup/ it depens on what language you use
 
 
 # Firefox
 
 - make a chrome if not done google how to do it. Then move the contents of the chrome folder to the new one.
-- then install tab center reborn and copy and past the contents 'tabCenterReborn.txt' to the .css box in extention setings.
-- color theme is a theme for the mozzilla store called 'pitch-black pink'
-- you can configure the incogneto image by moving an img to the img folder and naming it 'private.png'(there are other ways this is just easy) and change the name of the previous one.
+- then install tab center reborn and copy and past the contents `tabCenterReborn.txt` to the .css box in extention setings.
+- color theme is a theme for the mozzilla store called `pitch-black pink`
+- you can configure the incogneto image by moving an img to the img folder and naming it `private.png`(there are other ways this is just easy) and change the name of the previous one.
 
 # start_up.c
 
@@ -39,7 +50,7 @@ everyting else should be straght foward read the documentation if you need any h
 - fastfetch
 - firefox
 - i3wm
-- kitty(if useing my config i recomend useing kitty if you use any of the termnal aplications)
+- kitty(if useing my config i recommend using kitty if you use any of the terminal applications)
 - polybar(bar)
 - nitrogen(wallpaper)
 - picom(transparent background)
