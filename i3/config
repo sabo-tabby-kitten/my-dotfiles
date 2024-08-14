@@ -167,7 +167,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 assign [class="Spotify Premium"] $ws10
 assign [class="Spotify"] $ws10
-assign [class="discord"] $ws3
+assign [class="vesktop"] $ws3
 assign [class="steam"] $ws4
 assign [class="pavucontrol"] $ws10
 
@@ -215,10 +215,9 @@ bindsym $mod+r mode "resize"
 
 exec firefox
 #exec kitty
-exec discord
+exec vesktop
 exec steam
 exec pavucontrol
-exec spotify
 
 exec_always --no-startup-id ~/dotfiles/i3/alternating_layouts.py
 exec_always nitrogen --restore 

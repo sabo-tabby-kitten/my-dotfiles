@@ -6,6 +6,78 @@
     }
 }
 
+
+/* /1* custom about:privatebrowsing cuz it's too ugly *1/ */
+/* @-moz-document url("about:home"), url("about:newtab") { */
+/*     html, body { */ 
+/*         background: #000000; */ 
+/*     } */
+
+/*     @font-face { */
+/*         font-family: itc; */
+/*         src: url("font/ITCEDSCR.TTF"); */
+/*     } */
+    
+/*     /1* config *1/ */
+/*     :root { */
+/*         /1* background size *1/ */
+/*         --bg-size: 320px; */
+/*         /1* message size *1/ */
+/*         --ms-size: 3.25rem; */
+/*     } */
+
+/*     /1* turn of all texts *1/ */
+/*     .promo, .info { */
+/*         display: none !important; */
+/*     } */
+
+/*     /1* Changes the home screen color *1/ */
+/*     html.private { */
+/*         --in-content-page-background: #000000 !important; */
+/*     } */
+
+/*     /1* Centers logo and wordmark *1/ */
+/*     .logo-and-wordmark { */
+/*         align-items: center !important; */
+/*         display: flex !important; */
+/*         flex-direction: column; */
+/*         justify-content: center !important; */
+/*         margin-bottom: 1.5rem !important; */
+/*     } */
+
+/*     /1* hide firefox wordmark *1/ */
+/*     html.private .wordmark { */
+/*         display: none !important; */
+/*     } */
+
+/*     /1* Changes the logo on the private browsing home screen *1/ */
+/*     html.private .logo { */
+/*         background-image: url("img/private.png") !important; */
+/*         background-size: var(--bg-size) !important; */
+/*         height: var(--bg-size) !important; */
+/*         width: var(--bg-size) !important; */
+/*     } */
+
+/*     /1* the search bar (which I won't use anyway lol) *1/ */
+/*     #search-handoff-button { */
+/*         display: none !important; */
+/*     } */
+
+/*     /1* the message *1/ */
+/*     .search-inner-wrapper::after { */
+/*         display: block; */
+/*         width: 100%; */
+
+/*         content: "Relly? What are you going to do this time?"; */
+/*         font-family: itc; */
+/*         text-align: center; */
+/*         font-size: var(--ms-size) !important; */
+/*     } */
+/* } */
+
+
+
+
 /* custom about:privatebrowsing cuz it's too ugly */
 @-moz-document url(about:privatebrowsing) {
     html, body { 

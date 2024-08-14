@@ -8,25 +8,6 @@
     --fullscreen-sidebar-width: 1px;
 }
 
-/* macOS specific styles */
-@media (-moz-platform: macos) {
-    #TabsToolbar:not([customizing="true"]) {
-        visibility: collapse !important;
-    }
-
-    :root:not([customizing="true"]) #nav-bar:not([inFullscreen]) {
-        padding-left: 80px !important;
-    }
-
-    :root:not([customizing="true"]) #TabsToolbar .titlebar-buttonbox-container {
-        visibility: visible !important;
-        position: absolute;
-        top: 12px;
-        left: 0px;
-        display: block;
-    }
-}
-
 /* Linux/GTK specific styles */
 @media (-moz-gtk-csd-available),
        (-moz-platform: linux) {
@@ -376,3 +357,45 @@
     z-index: 2 !important;
 }
 
+/* /1* replacing old extentions with a more permnent solution */
+
+/* /1* Background and Foreground Colors *1/ */
+/* * { */
+/*     background-color: #000000 !important; /1* Background color *1/ */
+/*     color: #dd7694 !important; /1* Text color *1/ */
+/* } */
+
+/* /1* Toolbar and Tabs *1/ */
+/* #nav-bar { */
+/*     background-color: #000000 !important; /1* Toolbar background color *1/ */
+/*     color: #dd7694 !important; /1* Toolbar text color *1/ */
+/* } */
+
+/* .tabbrowser-tab { */
+/*     background-color: #000000 !important; /1* Tab background color *1/ */
+/*     color: #dd7694 !important; /1* Tab text color *1/ */
+/* } */
+
+/* .tabbrowser-tab[selected] { */
+/*     background-color: #dd7694 !important; /1* Selected tab background color *1/ */
+/*     color: #000000 !important; /1* Selected tab text color *1/ */
+/* } */
+
+/* /1* Buttons and Highlights *1/ */
+/* .toolbarbutton { */
+/*     background-color: #e73c84 !important; /1* Button background color *1/ */
+/*     color: #dd7694 !important; /1* Button text color *1/ */
+/* } */
+
+/* /1* Example of other elements you might customize *1/ */
+/* /1* Sidebar *1/ */
+/* #sidebar-box { */
+/*     background-color: #000000 !important; */
+/*     color: #dd7694 !important; */
+/* } */
+
+/* /1* Bookmarks Toolbar *1/ */
+/* #PersonalToolbar { */
+/*     background-color: #000000 !important; */
+/*     color: #dd7694 !important; */
+/* } */

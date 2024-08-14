@@ -218,5 +218,3 @@ map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "file save" })
 
-
-

@@ -29,6 +29,8 @@ Plug 'windwp/nvim-autopairs'
 Plug 'https://github.com/lukas-reineke/indent-blankline.nvim'
 Plug 'nvim-tree/nvim-web-devicons' " optional
 Plug 'nvim-tree/nvim-tree.lua'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+
 
 call plug#end()
 
@@ -63,6 +65,9 @@ inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
 ":CocInstall coc-html
 ":CocInstall coc-css
 ":CocInstall coc-rust-analyzer
+" run         rustup component add rls rust-analysis rust-src    in terminal
+":CocInstall coc-rls
+
 
 "bar theme
 
